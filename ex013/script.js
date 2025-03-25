@@ -1,5 +1,10 @@
-var numero1 = Number(prompt("digite um número"))
-var numero2 = Number(prompt("digite outro número"))
+var valor1 = Number(prompt("digite um valor"))
+var valor2 = Number(prompt("digite um valor"))
 
-alert(numero2)
-alert(numero1)
+var numero = valor1 
+
+valor1 = valor2
+valor2 = numero
+
+alert(valor1)
+alert(valor2)
