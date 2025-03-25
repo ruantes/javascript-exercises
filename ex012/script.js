@@ -1,4 +1,5 @@
 var numero = Number(prompt("digite um valor em real"))
-var divisão = numero / 5.68 
+var taxaCâmbio = 5.68
+var realConvertido = numero / taxaCâmbio
 
-alert("Esse valor em dólar é " + divisão.toFixed(2)) 
+alert("Esse valor em dólar é " + realConvertido.toFixed(2)) 

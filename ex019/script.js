@@ -1,5 +1,9 @@
-var numero1 = Number(prompt("Digite o valor da base do triângulo"))
-var numero2 = Number(prompt("Digite o valor da altura do triângulo"))
-var divisão = (numero1 * numero2) / 2
+var base = Number(prompt("Digite o valor da base do triângulo"))
+var altura = Number(prompt("Digite o valor da altura do triângulo"))
 
-alert("A área do triângulo é " + divisão)
+var area = (base * altura) / 2
+
+alert(`Base = ${base}
+Altura = ${altura}
+
+A área do triângulo é = ${area}`)
